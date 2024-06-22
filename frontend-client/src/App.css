@@ -1,0 +1,51 @@
+/* Normalize browser default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styles for the entire application */
+body {
+  font-family: sans-serif; /* Choose a preferred font family */
+  font-size: 16px; /* Base font size */
+  line-height: 1.5; /* Set line spacing for readability */
+  color: #333; /* Base text color */
+  background-color: #fff; /* Base background color */
+}
+
+/* Global reset styles (optional) */
+/* Consider using a dedicated CSS reset library for more comprehensive normalization */
+
+/* Utility classes */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.margin {
+  margin: 1rem; /* Adjust margin as needed */
+}
+
+.padding {
+  padding: 1rem; /* Adjust padding as needed */
+}
+body{
+  background-color: rgb(92, 89, 89);
+}
+
+/* Add more utility classes as needed */
+
+/* Component-specific styles */
+
+
+/* Custom styles for the application */
+/* Use this section for application-wide styles that aren't specific to components */
